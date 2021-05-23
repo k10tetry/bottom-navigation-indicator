@@ -1,0 +1,3 @@
+include ':bottomnavigationindicator'
+include ':app'
+rootProject.name = "BottomNavigationIndicatorActivity"

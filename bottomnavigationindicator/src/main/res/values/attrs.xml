@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavigationIndicator">
+        <attr name="barHeight" format="dimension" />
+        <attr name="barColor" format="color" />
+        <attr name="barCorners" format="enum">
+            <enum name="round" value="0" />
+            <enum name="sharp" value="1" />
+        </attr>
+        <attr name="enableAnimation" format="boolean" />
+        <attr name="barSweepCount" format="integer" />
+        <attr name="barMode" format="enum">
+            <enum name="fixed" value="0" />
+            <enum name="stretch" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
