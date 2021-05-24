@@ -6,11 +6,11 @@ BottomNavigation Indicator is a simple andoird library for adding a smooth indic
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/k10tetry/bottom-navigation-indicator/950b6935fdcbee1a5c79620a8436a0dbbeaca9af/screenshot/screenshot_2021.png" width="320"/>
+![Screenshot of Bottom Navigation Indicator](https://raw.githubusercontent.com/k10tetry/bottom-navigation-indicator/950b6935fdcbee1a5c79620a8436a0dbbeaca9af/screenshot/screenshot_2021.png)
 
 ## Installation
 
-Add Jitpack to your project build.gralde file
+Add Jitpack to your project build.gralde file.
 
 ```javascript
 allprojects {
@@ -25,8 +25,45 @@ Then add this dependency to your app build.gradle file.
 
 ```javascript
 dependencies {
+  ...
   implementation 'com.github.k10tetry:bottom-navigation-indicator:1.0.0'
 }
 ```
 
-## Thanks You
+## Usage
+
+```javascript
+<com.codewithk10.bottomnavigationindicator.BottomNavigationIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:barColor="@color/colorBlack"
+        app:barCorners="round"
+        app:barHeight="4dp"
+        app:barMode="fixed"
+        app:barSweepCount="5"
+        app:enableAnimation="true" />
+```
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Ketan Tetry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
