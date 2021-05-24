@@ -2,7 +2,7 @@
 
 # Bottom Navigation Indicator
 
-BottomNavigation Indicator is a simple andoird library for adding a smooth indicator animation above bottom navigation view.
+BottomNavigation Indicator is a simple android library for adding a smooth indicator animation above the bottom navigation view.
 
 ## Screenshot
 
