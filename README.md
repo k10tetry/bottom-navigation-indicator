@@ -6,7 +6,7 @@ BottomNavigation Indicator is a simple andoird library for adding a smooth indic
 
 ## Screenshot
 
-![Screenshot of Bottom Navigation Indicator](https://raw.githubusercontent.com/k10tetry/bottom-navigation-indicator/950b6935fdcbee1a5c79620a8436a0dbbeaca9af/screenshot/screenshot_2021.png)
+<img src="https://raw.githubusercontent.com/k10tetry/bottom-navigation-indicator/master/screenshot/screenshot_2021.png" width="300"/>
 
 ## Installation
 
